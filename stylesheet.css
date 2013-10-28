@@ -3,7 +3,7 @@ html,body{
     max-width: 100%;
     overflow-x: hidden;
 } 
-
+/*-- Navigation--*/
 .navigation{
 	background-color: white;
     padding-top: 20px;
@@ -38,7 +38,16 @@ html,body{
     text-transform: uppercase;
     text-decoration: none;
     line-height: 30px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }    
+
+.navigation-list a:hover{
+    color: #BB152D;
+}   
 
 .navigation-list li img{
     width: 21%;
@@ -49,11 +58,12 @@ html,body{
     border-top: none !important;
 }
 
-.about img{
+/*-- Homepage --*/
+.home img{
 	max-width: 100%;
 }
 
-.about-text{
+.home-text{
     padding: 10px;
     width: 277px;
     height: 170px;
@@ -66,22 +76,84 @@ html,body{
     text-align: center;
 }
 
-.first{
+#home-first{
     font-size: 38px;  
 }
 
-.second{
+#home-second{
     font-size: 51px;  
     font-weight: bold; 
     line-height: 20px;
 }
 
-.third{
+#home-third{
     font-size: 23px; 
     line-height: 44px;
     border-bottom: solid 3px #BB152D;
 }
 
+/*-- About --*/
+.about img{
+    max-width: 100%;
+}
+
+.about-text{
+    padding: 30px;
+    width: 600px;
+    height: 265px;
+    background-color: white;
+    position: absolute;
+    left: 197px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #BB152D;
+    text-align: left;
+}
+
+#title{
+    font-family: 'PT Sans', sans-serif;
+    color: #BB152D;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;    
+}
+
+/*-- Menu --*/
+.menu img{
+    max-width: 100%;
+}
+
+.menu-text{
+    padding: 10px;
+    width: 277px;
+    height: 170px;
+    background-color: white;
+    position: absolute;
+    left: 370px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #BB152D;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu-first{
+    font-size: 42px;  
+    line-height: 37px;
+}
+#menu-second{
+    font-size: 22.4px;
+    line-height: 9px;
+}
+
+#menu-third{
+    font-size: 88px; 
+    font-weight: bold;
+    border-bottom: solid 3px #BB152D;
+    line-height: 73px;
+}
+
+/*-- Contact --*/
 .phone{
     background-color: #BB152D;
     border-bottom: 3px solid white;
@@ -144,7 +216,7 @@ i.ss-icon{
 .contact-buttons li p{
     text-align: left !important;
     line-height: 28px;
-        padding-top: 8px;
+    padding-top: 8px;
 }
 
 #order{
@@ -175,6 +247,7 @@ i.ss-icon{
     text-align: right;
 }
 
+/*-- Footer --*/
 .footer{
     height: 25px;
     margin-top: 7px;
