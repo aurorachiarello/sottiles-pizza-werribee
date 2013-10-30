@@ -21,7 +21,7 @@ html,body{
 }
 
 .navigation-list li{
-    display:inline;
+    display: inline;
 	list-style-type: none;
 	margin-right: 40px;
 	margin-left: 40px;
@@ -64,12 +64,12 @@ html,body{
 }
 
 .home-text{
-    padding: 10px;
+    padding: 10px 22px 10px 22px;
     width: 277px;
     height: 170px;
     background-color: white;
     position: absolute;
-    left: 197px;
+    left: 200px;
     font-family: 'PT Sans', sans-serif;
     color: #BB152D;
     text-transform: uppercase;
@@ -98,12 +98,12 @@ html,body{
 }
 
 .about-text{
-    padding: 30px;
+    padding: 10px 22px 10px 22px;
     width: 600px;
-    height: 265px;
+    height: 245px;
     background-color: white;
     position: absolute;
-    left: 197px;
+    left: 200px;
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
     color: #BB152D;
@@ -124,12 +124,12 @@ html,body{
 }
 
 .menu-text{
-    padding: 10px;
+    padding: 10px 22px 10px 22px;
     width: 277px;
     height: 170px;
     background-color: white;
     position: absolute;
-    left: 370px;
+    left: 375px;
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
     color: #BB152D;
@@ -152,6 +152,72 @@ html,body{
     border-bottom: solid 3px #BB152D;
     line-height: 73px;
 }
+
+/*-- Specials --*/
+.specials img{
+    max-width: 100%;
+}
+
+.specials-text{
+    padding: 10px 22px 10px 22px;
+    width: 277px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    left: 925px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #BB152D;
+    text-align: left;
+}
+
+.specials-1{
+    position: absolute;
+    left: 270px;
+    top: 22px;
+}
+
+.specials-2{
+    position: absolute;
+    left: 500px;
+    top: 22px;
+}
+
+.specials-3{
+    position: absolute;
+    left: 270px;
+    top: 230px;
+}
+
+.specials-4{
+    position: absolute;
+    left: 500px;
+    top: 230px;
+}
+
+
+/*-- Contact Us --*/
+.specials img{
+    max-width: 100%;
+}
+
+.location{
+    padding: 10px 22px 10px 22px;
+    width: 1077px;
+    height: 333px;
+    background-color: white;
+    position: absolute;
+    left: 200px;
+}
+
+.location ul{
+    list-style-type: none;
+}
+
+.location ul li{
+    display:inline;
+}
+
 
 /*-- Contact --*/
 .phone{
