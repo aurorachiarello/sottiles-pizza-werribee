@@ -25,8 +25,8 @@ html,body{
 	list-style-type: none;
 	margin-right: 40px;
 	margin-left: 40px;
-    border-bottom: 1px solid black;
-    border-top:  1px solid black;
+    border-bottom: 2px solid black;
+    border-top:  2px solid black;
     padding-top: 13px;
     padding-bottom: 9px;
 }
@@ -39,11 +39,11 @@ html,body{
     text-decoration: none;
     line-height: 30px;
     letter-spacing: .5px;  
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
 }    
 
 .navigation-list a:hover{
@@ -60,6 +60,10 @@ html,body{
 }
 
 /*-- Homepage --*/
+.home{
+    border-top: solid 3px black;
+}
+
 .home img{
 	max-width: 100%;
 }
@@ -68,11 +72,11 @@ html,body{
     padding: 10px 22px 10px 22px;
     width: 277px;
     height: 170px;
-    background-color: white;
+    background-color: black;
     position: absolute;
     left: 200px;
     font-family: 'PT Sans', sans-serif;
-    color: #BB152D;
+    color: white;
     text-transform: uppercase;
     text-align: center;
 }
@@ -86,17 +90,24 @@ html,body{
     font-size: 51px;  
     font-weight: bold; 
     line-height: 20px;
-    letter-spacing: .5px;   
+    letter-spacing: .5px; 
+    color: #BB152D;  
 }
 
 #home-third{
     font-size: 22px; 
-    line-height: 44px;
-    border-bottom: solid 3px #BB152D;
-    letter-spacing: .5px;  
+    line-height: 38px;
+    border-bottom: solid 3px white;
+    letter-spacing: .5px;
+    color: white;    
 }
 
+
 /*-- About --*/
+.about{
+    border-top: solid 3px black;
+}
+
 .about img{
     max-width: 100%;
 }
@@ -105,12 +116,12 @@ html,body{
     padding: 10px 22px 10px 22px;
     width: 600px;
     height: 245px;
-    background-color: white;
+    background-color: black;
     position: absolute;
     left: 200px;
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
-    color: #BB152D;
+    color: white;
     text-align: left;
     letter-spacing: .2px;  
 }
@@ -125,6 +136,10 @@ html,body{
 }
 
 /*-- Menu --*/
+.menu{
+    border-top: solid 3px black;
+}
+
 .menu img{
     max-width: 100%;
 }
@@ -133,12 +148,12 @@ html,body{
     padding: 10px 22px 10px 22px;
     width: 277px;
     height: 170px;
-    background-color: white;
+    background-color: black;
     position: absolute;
     left: 375px;
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
-    color: #BB152D;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5px;      
@@ -147,23 +162,30 @@ html,body{
 #menu-first{
     font-size: 42px;  
     line-height: 37px;
-    letter-spacing: .5px;  
+    letter-spacing: .5px; 
+    color: #BB152D;   
 }
 #menu-second{
     font-size: 22px;
     line-height: 9px;
-    letter-spacing: .5px;  
+    letter-spacing: .5px; 
+    color: white;   
 }
 
 #menu-third{
     font-size: 88px; 
     font-weight: bold;
-    border-bottom: solid 3px #BB152D;
+    border-bottom: solid 3px white;
     line-height: 73px;
-    letter-spacing: .5px;  
+    letter-spacing: .5px;
+    color: white;        
 }
 
 /*-- Specials --*/
+.specials{
+    border-top: solid 3px black;
+}
+
 .specials img{
     max-width: 100%;
 }
@@ -172,12 +194,12 @@ html,body{
     padding: 10px 22px 10px 22px;
     width: 277px;
     height: 450px;
-    background-color: white;
+    background-color: black;
     position: absolute;
     left: 925px;
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
-    color: #BB152D;
+    color: white;
     text-align: left;
     letter-spacing: .2px;  
 }
@@ -208,7 +230,11 @@ html,body{
 
 
 /*-- Contact Us --*/
-.specials img{
+.contact{
+    border-top: solid 3px black;
+}
+
+.contact img{
     max-width: 100%;
 }
 
@@ -216,7 +242,7 @@ html,body{
     padding: 10px 22px 10px 22px;
     width: 1077px;
     height: 333px;
-    background-color: white;
+    background-color: black;
     position: absolute;
     left: 200px;
 }
@@ -241,7 +267,7 @@ iframe{
 .location-text{
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
-    color: #BB152D;
+    color: white;
     text-transform: uppercase;
     text-align: center; !important;
     padding-top: 3px; 
@@ -277,8 +303,8 @@ iframe{
 
 /*-- Contact --*/
 .phone{
-    background-color: #BB152D;
-    border-bottom: 3px solid white;
+    background-color: black;
+    border-bottom: 3px solid black;
     border-top: 3px solid white;
 }
 
@@ -325,7 +351,7 @@ iframe{
 }
 
 i.ss-icon{
-    color: white;
+    color: #BB152D;  
     font-size: 40px;
     text-align: left;
     line-height: 55px;
@@ -363,7 +389,7 @@ i.ss-icon{
 #phone{
     font-family: 'PT Sans', sans-serif;
     font-size: 60px;
-    color: white;
+    color: #BB152D;  
     text-transform: uppercase;
     margin: 0 !important;
     letter-spacing: -4px;
@@ -387,7 +413,7 @@ i.ss-icon{
 }
 
 .aurora{
-    color: #d98e98;
+    color: #BB152D;
     font-family: 'PT Sans', sans-serif;
     font-size: 11px;
     text-transform: uppercase;
