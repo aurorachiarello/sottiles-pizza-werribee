@@ -143,6 +143,14 @@ html,body{
     position: relative;    
 }
 
+.menu-text p a{
+    text-decoration: none;
+}
+
+.menu-text p a:hover{
+    opacity:.8;
+}
+
 .menu img{
     max-width: 100%;
 }
@@ -188,13 +196,13 @@ html,body{
 .specials{
     border-top: solid 3px black;
     position: relative;   
-     background-image:  url('img/sottiles_specials.jpg');
-     background-size: cover;
+    background-image:  url('img/sottiles_specials.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:left top;
+    height: 85%;
 }
 
-.specials img{
-    max-width: 100%;
-}
 
 .specials-text{
     padding: 10px 22px 10px 22px;
@@ -210,22 +218,36 @@ html,body{
     letter-spacing: .2px;  
 }
 
-.specials-1{
-    top: 22px;
+.specials-1 {
+    text-align: center;
 }
 
-.specials-2{
-    top: 22px;
-    text-align: right;
+.specials-2 {
+    text-align: center;
 }
 
-.specials-3{
-    top: 22px;
+.specials-3 {
+    text-align: center;
 }
 
-.specials-4{
-    top: 22px;
-    text-align: right;    
+.specials-4 {
+    text-align: center;
+}
+
+.specials-1 img{
+    padding-top: 15px;
+}
+
+.specials-2 img{
+    padding-top: 15px;
+}
+
+.specials-3 img{
+    padding-top: 8px;
+}
+
+.specials-4 img{
+    padding-top: 8px;
 }
 
 
@@ -241,24 +263,15 @@ html,body{
 
 .location{
     padding: 10px 22px 10px 22px;
-    width: 1077px;
-    height: 333px;
+    width: 595px;
+    height: 510px;
     background-color: black;
     position: absolute;
     left: 50%;
     margin-left: -536px;
 }
 
-.location ul{
-    list-style-type: none;
-}
-
-.location ul li{
-    display:inline;
-}
-
 .map {
-    float: left;
     margin-right: 20px;
 }
 
@@ -272,16 +285,17 @@ iframe{
     color: white;
     text-transform: uppercase;
     text-align: center; !important;
-    padding-top: 3px; 
+    padding-top: 8px; 
     letter-spacing: .5px;  
 }  
 
 #address{
-    font-size: 23.4px;
+    font-size: 24px;
     padding-top: 3px; 
     font-weight: bold !important;
     letter-spacing: .5px;  
     padding-bottom: 6px;
+    color: #BB152D;
 }
 
 #extra-bold{
@@ -299,7 +313,7 @@ iframe{
     color: #BB152D;
     text-transform: uppercase;
     text-align: center; !important;
-    padding-top: 95px; 
+    padding-top: 5px; 
     letter-spacing: .2px;     
 }
 
