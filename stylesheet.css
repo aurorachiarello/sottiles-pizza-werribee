@@ -9,6 +9,21 @@ html,body{
     max-width: 100%;
     padding-left: 0;
     padding-right: 0;
+    text-align: center
+}
+
+.container>.navbar-collapse {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .navbar-nav{
@@ -16,17 +31,42 @@ html,body{
     text-align: center;
 }
 
+.navbar-nav>li>a {
+    padding-bottom: 11px;
+}
+
+.nav>li>a {
+    padding: 10px 7px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: white;
+}
+
 .navbar .brand {
     margin-left: auto;
     margin-right: auto;
     width: 20px;
     float: none;
-
+    padding: 0px,0px;
 }
 
+.brand{
+    float: none;
+    padding: none;
+}
+
+.brand a {
+    float: none; 
+    margin: 0 auto;
+}
+
+.nav>li>a {
+    padding: none;
+}
 .navigation{
 	background-color: white;
-    padding-top: 20px;
 }
 
 .navigation-list ul{
@@ -38,12 +78,10 @@ html,body{
 .navigation-list li{
     display: inline;
 	list-style-type: none;
-	margin-right: 2.5%;
-	margin-left: 2.5%;
     border-bottom: 2px solid black;
     border-top:  2px solid black;
-    padding-top: 13px;
-    padding-bottom: 9px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .navigation-list li a{
@@ -52,7 +90,7 @@ html,body{
     color: black;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: .5px;  
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -66,12 +104,28 @@ html,body{
 }   
 
 .navigation-list li img{
-    width: 21%;
+    max-height: 30%;
 }
 
-.logo{
+#logo{
     border-bottom: none !important;
     border-top: none !important;
+}
+
+#about{
+    margin-top: 4%;
+}
+
+#menu{
+    margin-top: 4%;
+}
+
+#specials{
+    margin-top: 4%;
+}
+
+#contact{
+    margin-top: 4%;
 }
 
 /*-- Homepage --*/
