@@ -4,14 +4,29 @@ html,body{
     overflow-x: hidden;
 } 
 /*-- Navigation--*/
+
+.container{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-nav{
+    float: none;
+    text-align: center;
+}
+
+.navbar .brand {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+    float: none;
+
+}
+
 .navigation{
 	background-color: white;
     padding-top: 20px;
-}
-
-.navigation-list{
-    text-align: center;
-    padding-left:0 !important;
 }
 
 .navigation-list ul{
