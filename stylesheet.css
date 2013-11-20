@@ -405,6 +405,7 @@ iframe{
 .contact-buttons{
     padding-right: 0 !important;
     padding-left: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .contact-buttons ul{
@@ -444,6 +445,10 @@ iframe{
     max-width: 95%;
 }
 
+.contact-buttons a{
+    text-decoration: none;
+}
+
 i.ss-icon{
     color: #BB152D;  
     font-size: 40px;
@@ -454,8 +459,13 @@ i.ss-icon{
     -o-transition: all .75s ease;
     -ms-transition: all .75s ease;
     transition: all .75s ease;
+    text-decoration: none;
 }
 
+i.ss-icon:hover{
+    color: white;
+    underline: none;
+}
 .contact-buttons li p{
     text-align: left !important;
     line-height: 28px;
