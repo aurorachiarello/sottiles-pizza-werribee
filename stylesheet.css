@@ -209,15 +209,20 @@ html,body{
 /*-- Menu --*/
 .menu{
     border-top: solid 3px black;
-    position: relative;    
+    position: relative; 
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    transition: all 3s ease;       
 }
 
-.menu-text p a{
+.menu a{
     text-decoration: none;
 }
 
-.menu-text p a:hover{
-    opacity:.8;
+.menu a:hover{
+    opacity: .6;
 }
 
 .menu img{
@@ -305,18 +310,22 @@ html,body{
 
 .specials-1 img{
     padding-top: 15px;
+    width: 70%;
 }
 
 .specials-2 img{
     padding-top: 15px;
+    width: 70%;
 }
 
 .specials-3 img{
     padding-top: 8px;
+    width: 70%;
 }
 
 .specials-4 img{
     padding-top: 8px;
+    width: 70%;
 }
 
 
@@ -333,11 +342,11 @@ html,body{
 .location{
     padding: 10px 22px 10px 22px;
     width: 595px;
-    height: 510px;
+    height: 560px;
     background-color: black;
     position: absolute;
     left: 50%;
-    margin-left: -536px;
+    margin-left: -36%;
 }
 
 .map {
@@ -453,13 +462,24 @@ i.ss-icon{
     padding-top: 8px;
 }
 
+#werribee{ 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-align: left !important;
+    line-height: 15px;
+    color: #BB152D;
+    font-weight: bold;
+}
+
 #order{
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     color: white;
     text-transform: uppercase;
     text-align: left !important;
-    padding-top: 3px;
+    line-height: 24px;
 }
 
 #now{
