@@ -535,3 +535,28 @@ i.ss-icon:hover{
     padding: 0 !important;
     text-align: right;
 }
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+.navigation-list li a{
+    font-size: 17px;
+    line-height: 17px;
+}    
+
+.navigation-list li img{
+    max-height: 20%;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
