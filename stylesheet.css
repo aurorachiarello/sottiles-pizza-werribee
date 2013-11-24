@@ -631,6 +631,25 @@ iframe{
     font-size: 10px;
     padding-top: 0px; 
 }
+
+.menu-text{
+    padding: 10px 22px 10px 22px;
+    width: 260px;
+    height: 170px;
+    left: 21%;
+    font-size: 17px;    
+}
+
+#menu-first{
+    font-size: 41px;   
+}
+#menu-second{
+    font-size: 20px; 
+}
+
+#menu-third{
+    font-size: 83px;        
+}
 }
  
 
