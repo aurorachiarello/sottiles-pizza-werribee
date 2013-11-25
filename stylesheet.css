@@ -288,11 +288,6 @@ html,body{
 .specials{
     border-top: solid 3px black;
     position: relative;   
-    background-image:  url('img/sottiles_specials.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:left top;
-    height: 85%;
 }
 
 
@@ -308,42 +303,6 @@ html,body{
     color: white;
     text-align: left;
     letter-spacing: .2px;  
-}
-
-.specials-1 {
-    text-align: center;
-}
-
-.specials-2 {
-    text-align: center;
-}
-
-.specials-3 {
-    text-align: center;
-}
-
-.specials-4 {
-    text-align: center;
-}
-
-.specials-1 img{
-    padding-top: 15px;
-    width: 70%;
-}
-
-.specials-2 img{
-    padding-top: 15px;
-    width: 70%;
-}
-
-.specials-3 img{
-    padding-top: 8px;
-    width: 70%;
-}
-
-.specials-4 img{
-    padding-top: 8px;
-    width: 70%;
 }
 
 
@@ -784,5 +743,21 @@ i.ss-icon{
     text-align: right !important;
     padding-top: 26px;
     padding-right: 0 !important;
+}
+}
+
+@media (min-width: 1920px) { 
+.nav>li>a{
+    font-size: 23px;
+    line-height: 20px;
+}    
+
+.nav>li>a>img{
+    width: 75%;
+}
+
+.nav>li{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
 }
 }
