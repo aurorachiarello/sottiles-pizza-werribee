@@ -234,11 +234,11 @@ html,body{
 .menu{
     border-top: solid 3px black;
     position: relative; 
-    -webkit-transition: all 3s ease;
-    -moz-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    -ms-transition: all 3s ease;
-    transition: all 3s ease;       
+    -webkit-transition: 3s ease;
+    -moz-transition: 3s ease;
+    -o-transition: 3s ease;
+    -ms-transition: 3s ease;
+    transition: 3s ease;       
 }
 
 .menu-text{
@@ -429,11 +429,11 @@ i.ss-icon{
     color: #BB152D;  
     font-size: 45px;
     line-height: 70px;
-    -webkit-transition: all .75s ease;
-    -moz-transition: all .75s ease;
-    -o-transition: all .75s ease;
-    -ms-transition: all .75s ease;
-    transition: all .75s ease;
+    -webkit-transition:  .75s ease;
+    -moz-transition:  .75s ease;
+    -o-transition:  .75s ease;
+    -ms-transition:  .75s ease;
+    transition:  .75s ease;
     text-decoration: none;
 }
 
