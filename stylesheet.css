@@ -167,6 +167,10 @@ html,body{
     position: relative;    
 }
 
+.home-mobile{
+    border-top: solid 3px black;
+}
+
 .home-text{
     padding: 10px 22px 10px 22px;
     width: 277px;
@@ -180,9 +184,33 @@ html,body{
     text-align: center;
 }
 
+.mobile-home-text{
+    padding: 10px 22px 10px 22px;
+    height: 170px;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#mobile-home-first{
+    font-size: 38px; 
+    letter-spacing: .5px;       
+}
+
 #home-first{
     font-size: 38px; 
     letter-spacing: .5px;       
+}
+
+
+#mobile-home-second{
+    font-size: 51px;  
+    font-weight: bold; 
+    line-height: 20px;
+    letter-spacing: .5px; 
+    color: #BB152D;  
 }
 
 #home-second{
@@ -191,6 +219,16 @@ html,body{
     line-height: 20px;
     letter-spacing: .5px; 
     color: #BB152D;  
+}
+
+#mobile-home-third{
+    font-size: 22px; 
+    line-height: 38px;
+    border-bottom: solid 3px white;
+    letter-spacing: .5px;
+    color: white;    
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #home-third{
@@ -514,14 +552,39 @@ i.ss-icon:hover{
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 480px) { 
 
-.navigation-list li a{
-    font-size: 17px;
-    line-height: 17px;
-}    
-
-.navigation-list li img{
-    width: 40%;
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:block;
+    *display:block; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
 }
+
+.btn:focus{
+    outline: 0 none !important;
+}
+
+
+
+.navbar-brand{
+    display: none !important;
+}
+
+.navbar-nav {
+    margin: 0px;
+}
+
+.navbar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  border-top: none;
+  box-shadow: none;
+  -webkit-overflow-scrolling: touch;
+}
+
 }
 
 @media (min-width: 480px) and (max-width: 979px) { 
@@ -757,7 +820,6 @@ i.ss-icon{
     text-align: right !important;
     padding-top: 26px;
     padding-right: 0 !important;
-}
 }
 
 @media (min-width: 1920px) { 
