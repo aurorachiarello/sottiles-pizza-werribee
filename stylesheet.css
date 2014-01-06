@@ -249,7 +249,7 @@ html,body{
 .about-text{
     padding: 10px 22px 10px 22px;
     width: 600px;
-    height: 245px;
+    height: 225px;
     background-color: black;
     position: absolute;
     left: 14%;
@@ -388,7 +388,7 @@ iframe{
     color: white;
     text-transform: uppercase;
     text-align: center; !important;
-    padding-top: 8px; 
+    padding-top: 10px; 
     letter-spacing: .5px;  
 }  
 
