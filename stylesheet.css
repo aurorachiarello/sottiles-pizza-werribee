@@ -332,8 +332,15 @@ html,body{
     line-height: 73px;
     letter-spacing: .5px;
     color: white;   
-        text-decoration: none !important;      
-     
+    text-decoration: none !important;       
+}
+
+.modal-title{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: .5px;    
 }
 
 /*-- Specials --*/

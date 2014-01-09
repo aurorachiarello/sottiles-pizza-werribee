@@ -52,12 +52,12 @@
 
     <div class="menu row">
       <div class="container col-md-12">
-          <div class="menu-text"> <a href="img/sottiles_menu_A3.jpg" target="_blank" /> 
+          <div class="menu-text">              
+              <a href="img/sottiles_menu_A3.jpg" class="img-responsive" data-toggle="lightbox" data-title="Menu" data-footer="">
             <p id="menu-first"> Download </p>
             <p id="menu-second"> Pizza and Take Away </p>
-            <p id="menu-third">         
-Menu  </p>         
-</a>
+            <p id="menu-third"> Menu </p>  
+             </a>
           </div>  
         <img src="img/sottiles_menu.jpg" class="img-responsive"/> 
       </div>
@@ -103,5 +103,36 @@ Menu  </p>
     <script src="http://cdn.jsdelivr.net/jquery/1.8.3/jquery-1.8.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+<!-- yea, yea, not a cdn, i know -->
+<script src="js/ekko-lightbox.js"></script>
+<script type="text/javascript">
+    $(document).ready(function ($) {
+
+                // delegate calls to data-toggle="lightbox"
+                $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                        event.preventDefault();
+                        return $(this).ekkoLightbox({
+                                onShown: function() {
+                                        if (window.console) {
+                                                return console.log('Checking our the events huh?');
+                                        }
+                                }
+                        });
+                });
+
+                //Programatically call
+                $('#open-image').click(function (e) {
+                        e.preventDefault();
+                        $(this).ekkoLightbox();
+                });
+                $('#open-youtube').click(function (e) {
+                        e.preventDefault();
+                        $(this).ekkoLightbox();
+                });
+
+
+        });
+</script>
   </body>
 </html>
