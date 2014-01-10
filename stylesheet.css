@@ -249,7 +249,7 @@ html,body{
 .about-text{
     padding: 10px 22px 10px 22px;
     width: 600px;
-    height: 245px;
+    height: 225px;
     background-color: black;
     position: absolute;
     left: 14%;
@@ -332,8 +332,15 @@ html,body{
     line-height: 73px;
     letter-spacing: .5px;
     color: white;   
-        text-decoration: none !important;      
-     
+    text-decoration: none !important;       
+}
+
+.modal-title{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: .5px;    
 }
 
 /*-- Specials --*/
@@ -388,7 +395,7 @@ iframe{
     color: white;
     text-transform: uppercase;
     text-align: center; !important;
-    padding-top: 8px; 
+    padding-top: 10px; 
     letter-spacing: .5px;  
 }  
 
@@ -706,7 +713,7 @@ iframe{
  
 
 
-@media (min-width: 979px) and (max-width: 1200px) { 
+@media (min-width: 979px) and (max-width: 1400px) { 
 .nav>li>a{
     font-size: 17px;
     line-height: 14px;
