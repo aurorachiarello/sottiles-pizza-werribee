@@ -167,8 +167,8 @@ html,body{
     position: relative;    
 }
 
-.home-mobile{
-    border-top: solid 3px black;
+.mobile-home img{
+    border-top: solid 3px white;
 }
 
 .home-text{
@@ -185,8 +185,8 @@ html,body{
 }
 
 .mobile-home-text{
-    padding: 10px 22px 10px 22px;
-    height: 170px;
+    padding: 15px 22px 10px 22px;
+    height: 180px;
     background-color: black;
     font-family: 'PT Sans', sans-serif;
     color: white;
@@ -195,7 +195,7 @@ html,body{
 }
 
 #mobile-home-first{
-    font-size: 38px; 
+    font-size: 41px; 
     letter-spacing: .5px;       
 }
 
@@ -206,7 +206,7 @@ html,body{
 
 
 #mobile-home-second{
-    font-size: 51px;  
+    font-size: 53px;  
     font-weight: bold; 
     line-height: 20px;
     letter-spacing: .5px; 
@@ -214,7 +214,7 @@ html,body{
 }
 
 #home-second{
-    font-size: 51px;  
+    font-size: 52px;  
     font-weight: bold; 
     line-height: 20px;
     letter-spacing: .5px; 
@@ -246,6 +246,10 @@ html,body{
     position: relative;
 }
 
+.mobile-about img{
+    border-top: solid 3px white;
+}
+
 .about-text{
     padding: 10px 22px 10px 22px;
     width: 600px;
@@ -260,11 +264,30 @@ html,body{
     letter-spacing: .2px;  
 }
 
+.mobile-about-text{
+    padding: 20px 35px 20px 35px;
+    height: 280px;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+    letter-spacing: .2px;  
+}
+
 #title{
     font-family: 'PT Sans', sans-serif;
     color: #BB152D;
     text-transform: uppercase;
     font-size: 35px;
+    letter-spacing: .5px;      
+}
+
+#mobile-title{
+    font-family: 'PT Sans', sans-serif;
+    color: #BB152D;
+    text-transform: uppercase;
+    font-size: 21px;
     letter-spacing: .5px;      
 }
 
@@ -277,6 +300,10 @@ html,body{
     -o-transition: 3s ease;
     -ms-transition: 3s ease;
     transition: 3s ease;       
+}
+
+.mobile-menu img{
+    border-top: solid 3px white;
 }
 
 .menu-text{
@@ -308,21 +335,50 @@ html,body{
     letter-spacing: .5px;
 }
 
+.mobile-menu-text{
+    padding: 20px 35px 20px 35px;
+    height: 180px;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    letter-spacing: .2px; 
+    text-transform: uppercase;
+}
+
 #menu-first{
     font-size: 42px;  
     line-height: 37px;
     letter-spacing: .5px; 
     color: #BB152D;   
-        text-decoration: none !important;      
-
+    text-decoration: none !important;      
 }
+
+#mobile-menu-first{
+    font-size: 44px;  
+    line-height: 37px;
+    letter-spacing: .5px; 
+    color: #BB152D;   
+    text-decoration: none !important;  
+    text-align: center;    
+}
+
 #menu-second{
     font-size: 22px;
     line-height: 9px;
     letter-spacing: .5px; 
     color: white;   
-        text-decoration: none !important;      
+    text-decoration: none !important;      
+}
 
+#mobile-menu-second{
+    font-size: 22px;
+    line-height: 9px;
+    letter-spacing: .5px; 
+    color: white;   
+    text-decoration: none !important;   
+    text-align: center;   
 }
 
 #menu-third{
@@ -335,6 +391,19 @@ html,body{
     text-decoration: none !important;       
 }
 
+#mobile-menu-third{
+    font-size: 90px; 
+    font-weight: bold;
+    border-bottom: solid 3px white;
+    line-height: 73px;
+    letter-spacing: .5px;
+    color: white;   
+    text-decoration: none !important; 
+    margin-left: 21px;
+    margin-right: 27px;  
+    text-align: center;    
+}
+
 .modal-title{
     font-family: 'PT Sans', sans-serif;
     color: black;
@@ -343,32 +412,43 @@ html,body{
     letter-spacing: .5px;    
 }
 
+
+
+
 /*-- Specials --*/
 .specials{
     border-top: solid 3px black;
     position: relative;   
 }
 
-
-.specials-text{
-    padding: 10px 22px 10px 22px;
-    width: 277px;
-    height: 450px;
+.mobile-specials{
+    text-align: center;
     background-color: black;
-    position: absolute;
-    right: 19%;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 17px;
-    color: white;
-    text-align: left;
-    letter-spacing: .2px;  
+    padding-top: 25px;
 }
 
+.mobile-specials img{
+    border-top: solid 3px white;
+}
+
+.specials-list{
+    padding-bottom: 25px;
+}
+
+.specials-list img{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*-- Contact Us --*/
 .contact{
     border-top: solid 3px black;
     position: relative;
+}
+
+.mobile-contact img{
+    border-top: solid 3px white;
 }
 
 .location{
@@ -381,8 +461,17 @@ html,body{
     margin-left: -36%;
 }
 
+.mobile-location{
+    padding: 20px 35px 20px 35px;
+    background-color: black;
+}
+
 .map {
     margin-right: 20px;
+}
+
+.mobile-map{
+    max-width: 100%;
 }
 
 iframe{
@@ -399,8 +488,27 @@ iframe{
     letter-spacing: .5px;  
 }  
 
+.mobile-location-text{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center; !important;
+    padding-top: 10px; 
+    letter-spacing: .5px;  
+}  
+
 #address{
     font-size: 24px;
+    padding-top: 3px; 
+    font-weight: bold !important;
+    letter-spacing: .5px;  
+    padding-bottom: 6px;
+    color: #BB152D;
+}
+
+#mobile-address{
+    font-size: 18px;
     padding-top: 3px; 
     font-weight: bold !important;
     letter-spacing: .5px;  
@@ -572,8 +680,6 @@ i.ss-icon:hover{
     outline: 0 none !important;
 }
 
-
-
 .navbar-brand{
     display: none !important;
 }
@@ -592,9 +698,16 @@ i.ss-icon:hover{
   -webkit-overflow-scrolling: touch;
 }
 
+.about-text{
+    width: 100%;
+    height: 425px;
+    left: 0%;
+    padding: 30px 42px 30px 42px;
 }
 
-@media (min-width: 480px) and (max-width: 979px) { 
+}
+
+@media (min-width: 480px) and (max-width: 976px) { 
 .nav>li>a{
     font-size: 15px;
     line-height: 12px;
@@ -713,7 +826,7 @@ iframe{
  
 
 
-@media (min-width: 979px) and (max-width: 1400px) { 
+@media (min-width: 979px) and (max-width: 1025px) { 
 .nav>li>a{
     font-size: 17px;
     line-height: 14px;
