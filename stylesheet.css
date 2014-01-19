@@ -11,7 +11,7 @@ html,body{
     max-width: 100%;
     padding-left: 0;
     padding-right: 0;
-    text-align: center
+    text-align: center;
 }
 
 .container>.navbar-collapse {
@@ -77,6 +77,28 @@ html,body{
     transition: color .5s ease;
 }
 
+.menu-button{
+    border-top: black 2px solid;
+    margin-top: 15px;
+}
+
+.navbar-toggle{
+    position: block;
+    float: none;
+    padding: 9px 10px 0px;
+    margin: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+
+
+.navbar-toggle p{
+    padding-top: 10px;
+}
+
 .brand{
     float: none;
     padding: none;
@@ -93,13 +115,12 @@ html,body{
 
 .nav>li>a {
     padding: none;
-        font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 20px;
-
     letter-spacing: .5px;  
     -webkit-transition: color .5s ease;
     -moz-transition: color .5s ease;
@@ -676,6 +697,26 @@ i.ss-icon:hover{
     vertical-align: top;
 }
 
+.nav>li>a {
+    padding: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 15px;
+    letter-spacing: .5px;  
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    transition: color .5s ease;
+}
+.nav>li{
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+}
+
 .btn:focus{
     outline: 0 none !important;
 }
@@ -708,10 +749,21 @@ i.ss-icon:hover{
 }
 
 @media (min-width: 480px) and (max-width: 976px) { 
-.nav>li>a{
+.nav>li>a {
+    padding: none;
+    font-family: 'PT Sans', sans-serif;
     font-size: 15px;
-    line-height: 12px;
-}    
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 15px;
+    letter-spacing: .5px;  
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    transition: color .5s ease;
+}
 
 .nav>li>a>img{
     width: 45%;
