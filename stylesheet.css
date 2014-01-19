@@ -94,7 +94,6 @@ html,body{
 
 }
 
-
 .navbar-toggle p{
     padding-top: 10px;
 }
@@ -102,6 +101,8 @@ html,body{
 .brand{
     float: none;
     padding: none;
+    margin-right: -80px;
+    margin-left: -80px;
 }
 
 .brand a {
@@ -178,6 +179,10 @@ html,body{
 
 #contact{
     margin-top: 4%;
+}
+
+#mobile_menu_button { 
+border: none; outline:none; 
 }
 
 /*--------- Homepage --------*/
@@ -468,7 +473,7 @@ html,body{
     position: relative;
 }
 
-.mobile-contact img{
+.mobile-location img{
     border-top: solid 3px white;
 }
 
