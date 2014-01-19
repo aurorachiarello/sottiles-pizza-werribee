@@ -879,6 +879,14 @@ iframe{
 #menu-third{
     font-size: 83px;        
 }
+
+
+
+.specials-list img{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
  
 
