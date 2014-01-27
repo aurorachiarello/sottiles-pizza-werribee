@@ -299,7 +299,7 @@ html,body{
 
 .mobile-about-text{
     padding: 25px 65px 25px 65px;
-    height: 335px;
+    height: 365px;
     background-color: black;
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
@@ -481,7 +481,7 @@ html,body{
     position: relative;
 }
 
-.mobile-location-text img{
+.contact-img{
     border-top: solid 3px white;
 }
 
@@ -493,6 +493,7 @@ html,body{
     position: absolute;
     left: 50%;
     margin-left: -36%;
+    border-top: solid 3px black;
 }
 
 .mobile-location{
@@ -529,7 +530,8 @@ iframe{
     text-transform: uppercase;
     text-align: center; !important;
     padding-top: 10px; 
-    letter-spacing: .5px;  
+    letter-spacing: .5px; 
+    height: 405px; 
 }  
 
 #address{
@@ -584,10 +586,9 @@ iframe{
     display: -webkit-inline-box;
 }
 
-.contact-buttons ul{
-    text-align: center;
-    list-style: none;
-    margin-left: 0 !important;
+.icon-group{
+        display: -webkit-inline-box!important;
+        padding: 0;
 }
 
 #social-text{
@@ -599,6 +600,7 @@ iframe{
     margin-top: 12px;
     vertical-align: middle;
     letter-spacing: .5px;  
+    padding-right: 20px;    
 }
 
 .icons{
@@ -610,6 +612,16 @@ iframe{
 
 .contact-buttons a{
     text-decoration: none;
+    color: white;
+    -webkit-transition:  .75s ease;
+    -moz-transition:  .75s ease;
+    -o-transition:  .75s ease;
+    -ms-transition:  .75s ease;
+    transition:  .75s ease;
+}
+
+.contact-buttons a:hover{
+    color: #BB152D;  
 }
 
 i.ss-icon{
@@ -637,7 +649,11 @@ i.ss-icon:hover{
 .call{
     padding-top: 15px;
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0; 
+}
+
+#mobile-call{
+    display: inline-block;
 }
 
 #werribee{ 
@@ -648,14 +664,19 @@ i.ss-icon:hover{
     color: #BB152D;
 }
 
-#order-now{
+#order-online{
     font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
+    font-size: 21px;
     color: white;
     text-transform: uppercase;
     text-align: center !important;
     line-height: 11px;
     font-weight: bold;
+    -webkit-transition:  .75s ease;
+    -moz-transition:  .75s ease;
+    -o-transition:  .75s ease;
+    -ms-transition:  .75s ease;
+    transition:  .75s ease;       
 }
 
 #phone{
@@ -694,9 +715,14 @@ i.ss-icon:hover{
     text-align: right;
 }
 
+.aurora a{
+    color: #BB152D;
+    text-decoration: none;
+}
 
-
-
+.aurora a:hover{
+    color: black;
+}    
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 480px) { 
@@ -740,6 +766,7 @@ i.ss-icon:hover{
 
 .navbar-nav {
     margin: 0px;
+    padding-bottom: 20px;
 }
 
 .navbar-collapse {
@@ -757,6 +784,44 @@ i.ss-icon:hover{
     height: 425px;
     left: 0%;
     padding: 30px 42px 30px 42px;
+}
+
+.icon-group{
+    display: -webkit-inline-box!important;
+}
+
+#social-text{
+    text-align: center !important;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 9px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 12px;
+    vertical-align: middle;
+    letter-spacing: .5px;  
+    padding-right: 5px;    
+}
+
+#phone{
+    line-height: 25px;
+    padding-bottom: 5px;
+    letter-spacing: 0;
+}
+
+i.ss-icon{
+    color: #BB152D;  
+    font-size: 35px;
+    line-height: 60px;
+    -webkit-transition:  .75s ease;
+    -moz-transition:  .75s ease;
+    -o-transition:  .75s ease;
+    -ms-transition:  .75s ease;
+    transition:  .75s ease;
+    text-decoration: none;
+}
+
+.contact-buttons{
+    display: inline-block;
 }
 
 .footer{
@@ -832,13 +897,22 @@ i.ss-icon:hover{
 }
 
 .call{
-    padding-left: 95px;
+    padding-left: 67px;
+    padding-right: 67px;
 }
 
 .sottiles{
     font-size: 9px;
     float: left;
     padding-left: 80px !important;
+}
+
+.social-text{
+    padding-right: 0px;    
+}
+
+#social-text{
+    padding-right: 9px;    
 }
 
 .aurora{
@@ -912,6 +986,8 @@ iframe{
     margin-left: auto;
     margin-right: auto;
 }
+
+
 }
  
 
@@ -993,36 +1069,42 @@ i.ss-icon{
 
 #werribee{ 
     font-family: 'PT Sans', sans-serif;
-    font-size: 29px;
+    font-size: 32px;
     text-transform: uppercase;
     text-align: center !important;
-    line-height: 22px;
+    line-height: 25px;
     color: #BB152D;
     font-weight: bold;
 }
 
-#order-now{
-    padding-left: none!important;
-}
-
 .phone-img{
     overflow: hidden;
-    width: 294px;
+    width: 240px;
 }
 
 #werribee{ 
     padding-left: 14px !important;
-    font-size: 23px;
 }
 
 .call{
     padding-top: 29px;
+    position: block;
+    width: 25%;
 }
 
-#order-now{
-    font-size: 19px;
+#order-online{
     line-height: 11px;
-    padding-left: 14px !important;
+    padding-left: 13px !important;
+}
+
+#order-online:hover {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+#social-text{
+    margin-top: 18px;
+    padding-right: 0px;    
 }
 
 #phone{
