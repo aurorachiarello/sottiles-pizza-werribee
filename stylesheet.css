@@ -979,20 +979,14 @@ iframe{
     font-size: 83px;        
 }
 
-
-
 .specials-list img{
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
-
-
 }
- 
 
-
-@media (min-width: 979px) and (max-width: 1025px) { 
+@media (min-width: 979px) and (max-width: 1600px) { 
 .nav>li>a{
     font-size: 17px;
     line-height: 14px;
