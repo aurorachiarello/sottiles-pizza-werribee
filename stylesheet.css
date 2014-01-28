@@ -470,9 +470,10 @@ html,body{
 }
 
 .specials-list img{
-    max-width: 80%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 }
 
 /*-- Contact Us --*/
@@ -525,13 +526,14 @@ iframe{
 
 .mobile-location-text{
     font-family: 'PT Sans', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     color: white;
     text-transform: uppercase;
     text-align: center; !important;
     padding-top: 10px; 
     letter-spacing: .5px; 
     height: 405px; 
+    padding: 20px 35px 20px 35px;
 }  
 
 #address{
@@ -544,7 +546,7 @@ iframe{
 }
 
 #mobile-address{
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 3px; 
     font-weight: bold !important;
     letter-spacing: .5px;  
@@ -568,6 +570,15 @@ iframe{
     text-transform: uppercase;
     text-align: center; !important;
     padding-top: 5px; 
+    letter-spacing: .2px;     
+}
+
+.mobile-time{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10.3px;
+    color: #BB152D;
+    text-transform: uppercase;
+    text-align: center; !important;
     letter-spacing: .2px;     
 }
 
@@ -652,13 +663,9 @@ i.ss-icon:hover{
     padding-right: 0; 
 }
 
-#mobile-call{
-    display: inline-block;
-}
-
 #werribee{ 
     font-family: 'PT Sans', sans-serif;
-    font-size: 29px;
+    font-size: 32px;
     text-transform: uppercase;
     text-align: center !important;
     color: #BB152D;
@@ -672,6 +679,7 @@ i.ss-icon:hover{
     text-align: center !important;
     line-height: 11px;
     font-weight: bold;
+    padding-right: 5px;
     -webkit-transition:  .75s ease;
     -moz-transition:  .75s ease;
     -o-transition:  .75s ease;
@@ -799,13 +807,39 @@ i.ss-icon:hover{
     margin-top: 12px;
     vertical-align: middle;
     letter-spacing: .5px;  
-    padding-right: 5px;    
+    padding-right: 10px;    
+}
+
+.call{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 #phone{
     line-height: 25px;
     padding-bottom: 5px;
     letter-spacing: 0;
+}
+
+#order-online{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20.5px;
+    color: white;
+    text-transform: uppercase;
+    float: left !important;
+    line-height: 11px;
+    font-weight: bold;
+    -webkit-transition:  .75s ease;
+    -moz-transition:  .75s ease;
+    -o-transition:  .75s ease;
+    -ms-transition:  .75s ease;
+    transition:  .75s ease;       
+}
+
+#mobile-call{
+    display: inline-block;
+    padding-top: 5px;
+    vertical-align: top;
 }
 
 i.ss-icon{
@@ -840,10 +874,146 @@ i.ss-icon{
     text-align: center; 
     float: none;
 }
+}
+
+@media (min-width: 480px) and (max-width: 766px) { 
+.nav>li>a {
+    padding: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 15px;
+    letter-spacing: .5px;  
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    transition: color .5s ease;
+}
+
+.nav>li>a>img{
+    width: 45%;
+}
+
+.nav>li{
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: -110px;
+    margin-right: -110px;
+}
+
+.about-text{
+    width: 350px;
+    height: 300px;
+    left: 8%;
+    font-size: 14px;
+}
+
+#title{
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.navbar{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#mobile-home-third {
+    margin-left: 111px;
+    margin-right: 111px;
+}
+
+.contact-buttons img{
+    margin-top: 0px !important;
+    display: none;
+}
+
+.mobile-about-text {
+    padding: 25px 130px 25px 145px;
+}
+
+#mobile-menu-third {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.mobile-menu-text {
+    padding: 25px 65px 25px 65px;
+}
+
+.specials-list img {
+    max-width: 40%;
+}
+
+iframe {
+    height: 200px;
+    width: 240px;
+}
+
+.mobile-time{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10.3px;
+    color: #BB152D;
+    text-transform: uppercase;
+    text-align: center; !important;
+    letter-spacing: .2px;     
+}
+
+.mobile-location-text{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center; !important;
+    padding-top: 10px; 
+    letter-spacing: .5px; 
+    height: 405px; 
+    padding: 25px 63px 25px 63px;
+}  
+
+
+#mobile-address{
+    font-size: 16px;
+    padding-top: 3px; 
+    font-weight: bold !important;
+    letter-spacing: .5px;  
+    padding-bottom: 6px;
+    color: #BB152D;
+}
+
+.social-text{
+    padding-right: 0px;    
+}
+
+#social-text{
+    padding-right: 9px;    
+}
+
+.sottiles{
+    text-align: center; 
+    float: none;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.aurora{
+    text-align: center; 
+    float: none;
+}
+
+#phone{
+    text-align: center;
+}
 
 }
 
-@media (min-width: 480px) and (max-width: 976px) { 
+@media (min-width: 768px) and (max-width: 975px) { 
 .nav>li>a {
     padding: none;
     font-family: 'PT Sans', sans-serif;
@@ -901,12 +1071,6 @@ i.ss-icon{
     padding-right: 67px;
 }
 
-.sottiles{
-    font-size: 9px;
-    float: left;
-    padding-left: 80px !important;
-}
-
 .social-text{
     padding-right: 0px;    
 }
@@ -915,10 +1079,25 @@ i.ss-icon{
     padding-right: 9px;    
 }
 
+.sottiles{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    float: left;
+    padding-left: 70px !important;
+}
+
 .aurora{
-    font-size: 9px;
-    padding-right: 80px !important;
+    color: #BB152D;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-right: 35px !important;
     float: right;
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .location{
@@ -929,6 +1108,13 @@ i.ss-icon{
     position: absolute;
     left: 50%;
     margin-left: -38%;
+}
+
+.call{
+    vertical-align: top;
+}
+#phone{
+    text-align: center;
 }
 
 iframe{
@@ -985,6 +1171,7 @@ iframe{
     margin-right: auto;
 }
 }
+
 
 @media (min-width: 979px) and (max-width: 1400px) { 
 .nav>li>a{
@@ -1068,7 +1255,6 @@ i.ss-icon{
     text-align: center !important;
     line-height: 25px;
     color: #BB152D;
-    font-weight: bold;
 }
 
 .phone-img{
@@ -1087,12 +1273,11 @@ i.ss-icon{
 }
 
 #order-online{
-    line-height: 11px;
+    line-height: 27px;
     padding-left: 13px !important;
 }
 
 #order-online:hover {
-    text-decoration: underline;
     font-size: 24px;
 }
 
