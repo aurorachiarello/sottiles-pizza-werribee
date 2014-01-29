@@ -83,6 +83,8 @@ html,body{
     margin-right: 40px;
     margin-left: 40px;
     text-align: left;
+    font-size: 30px;
+    line-height: 20px;
 }
 
 .navbar-toggle{
@@ -994,70 +996,6 @@ iframe {
     padding-right: 9px;    
 }
 
-.icon-group{
-    display: -webkit-inline-box!important;
-}
-
-#social-text{
-    text-align: center !important;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 9px;
-    color: white;
-    text-transform: uppercase;
-    margin-top: 12px;
-    vertical-align: middle;
-    letter-spacing: .5px;  
-    padding-right: 10px;    
-}
-
-.call{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-
-#phone{
-    line-height: 25px;
-    padding-bottom: 5px;
-    letter-spacing: 0;
-}
-
-#order-online{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20.5px;
-    color: white;
-    text-transform: uppercase;
-    float: left !important;
-    line-height: 11px;
-    font-weight: bold;
-    -webkit-transition:  .75s ease;
-    -moz-transition:  .75s ease;
-    -o-transition:  .75s ease;
-    -ms-transition:  .75s ease;
-    transition:  .75s ease;       
-}
-
-#mobile-call{
-    display: inline-block;
-    padding-top: 5px;
-    vertical-align: top;
-}
-
-i.ss-icon{
-    color: #BB152D;  
-    font-size: 35px;
-    line-height: 60px;
-    -webkit-transition:  .75s ease;
-    -moz-transition:  .75s ease;
-    -o-transition:  .75s ease;
-    -ms-transition:  .75s ease;
-    transition:  .75s ease;
-    text-decoration: none;
-}
-
-.contact-buttons{
-    display: inline-block;
-}
-
 .sottiles{
     text-align: center; 
     float: none;
@@ -1076,7 +1014,7 @@ i.ss-icon{
 
 }
 
-@media (min-width: 769px) and (max-width: 975px) { 
+@media (min-width: 768px) and (max-width: 975px) { 
 .nav>li>a {
     padding: none;
     font-family: 'PT Sans', sans-serif;
