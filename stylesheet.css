@@ -736,7 +736,7 @@ i.ss-icon:hover{
 }    
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 480px) { 
+@media (max-width: 600px) { 
 
 .center.navbar .nav,
 .center.navbar .nav > li {
