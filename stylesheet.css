@@ -876,7 +876,7 @@ i.ss-icon{
 }
 }
 
-@media (min-width: 480px) and (max-width: 767px) { 
+@media (min-width: 480px) and (max-width: 768px) { 
 .nav>li>a {
     padding: none;
     font-family: 'PT Sans', sans-serif;
@@ -1076,7 +1076,7 @@ i.ss-icon{
 
 }
 
-@media (min-width: 768px) and (max-width: 975px) { 
+@media (min-width: 769px) and (max-width: 975px) { 
 .nav>li>a {
     padding: none;
     font-family: 'PT Sans', sans-serif;
@@ -1354,6 +1354,7 @@ i.ss-icon{
     text-align: right !important;
     padding-top: 26px;
     padding-right: 0 !important;
+}
 }
 
 @media (min-width: 1920px) { 
