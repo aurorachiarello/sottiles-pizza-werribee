@@ -876,7 +876,7 @@ i.ss-icon{
 }
 }
 
-@media (min-width: 480px) and (max-width: 766px) { 
+@media (min-width: 480px) and (max-width: 767px) { 
 .nav>li>a {
     padding: none;
     font-family: 'PT Sans', sans-serif;
@@ -976,7 +976,6 @@ iframe {
     height: 405px; 
     padding: 25px 63px 25px 63px;
 }  
-
 
 #mobile-address{
     font-size: 16px;
