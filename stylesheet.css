@@ -598,11 +598,15 @@ iframe{
     padding-left: 0 !important;
     margin-bottom: 0 !important;
     display: -webkit-inline-box;
+    *display: inline-block;
+    zoom:1;
 }
 
 .icon-group{
     display: -webkit-inline-box;
     padding: 0;
+    *display: inline-block;
+        zoom:1;
 }
 
 #social-text{
