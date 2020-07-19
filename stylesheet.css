@@ -151,7 +151,7 @@ html,body{
 
 .nav>li{
     display: inline;
-	list-style-type: none;
+    list-style-type: none;
     border-bottom: 2px solid black;
     border-top:  2px solid black;
     margin-left: 2.5%;
@@ -178,7 +178,7 @@ html,body{
     z-index: 2000;
 }
 
-#specials{
+#order{
     margin-top: 4%;
 }
 
@@ -225,7 +225,7 @@ html,body{
     height: 180px;
     background-color: black;
     font-family: 'PT Sans', sans-serif;
-    color: white;
+        color: white;
     text-transform: uppercase;
     text-align: center;
 }
